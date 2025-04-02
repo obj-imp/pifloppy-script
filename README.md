@@ -9,7 +9,7 @@ and scripts it all together to setup a Raspberry Pi Zero W to look like both a U
 
 instructions:
 
-1. flash the Pi with the Raspberry Pi Imager tool and the Bullseye 32-bit lite OS (found in the legacy OS section)
-2. SSH into the Pi
-3. `sudo wget https://raw.githubusercontent.com/obj-imp/pifloppy-script/refs/heads/main/cncpi.bash'
+1. flash the Pi with the Raspberry Pi Imager tool and the Bullseye 32-bit lite OS (found in the legacy OS section).  Be sure to setup your wifi network, username and password, and allow SSH connections. 
+2. SSH into the Pi (ChatGPT et. al. can help you figure this out)
+3. `sudo wget https://raw.githubusercontent.com/obj-imp/pifloppy-script/refs/heads/main/cncpi.bash`
 4. `sudo bash ./cncpi.bash`
